@@ -6,7 +6,7 @@ You can test excel file upload via the API without having to create the SQL DB &
 
 If you want to create the SQL Db & persist the upload data, select the DAL project in the Package Manager Console and run "Update-Database" on the command line (see pic below).
 
-Validate upload using the GET Methods.  
+Validate persistence/upload using the GET Methods.  
 
 Note: There is a unique constraint on OrderNumber.
 
